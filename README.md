@@ -67,7 +67,7 @@ source install/setup.bash
 ---
 To launch main package use:
 ```bash
-ros2 launch lab2 gazebo_ros2.launch.py
+ros2 launch lab2_new gazebo_ros2.launch.py
 ```
 ---
 ### Test the Controller
@@ -77,7 +77,7 @@ To start controller publisher you need to start node in the new terminal:
 source /opt/ws/install/setup.bash
 
 # Run the robot controller
-ros2 run lab2 robot_controller
+ros2 run lab2_new robot_controller
 ```
 ---
 ### Test the Subscriber
@@ -87,7 +87,7 @@ To test subscriber in yet another terminal launch subscriber node:
 source /opt/ws/install/setup.bash
 
 # Run the LiDAR subscriber
-ros2 run lab2 lidar_subscriber
+ros2 run lab2_new lidar_subscriber
 ```
 Press Ctrl+C to stop  the subscriber node.
 ### See running nodes and topics
